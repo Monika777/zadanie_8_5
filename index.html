@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Triangle Area</title>
+	<meta charset="UTF-8">
+	<title>Area of Triangle</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
-  <script type="text/javascript" src="js/script.js"></script>
+	<div class="container">
+		<h2>Area of Triangle</h2>
+  		<p class="details">Triangle Base:</p>
+    	<input type="text" class="enter" id="base"><br>
+    	<p class="details">Triangle Height:</p>
+    	<input type="text" class="enter" id="height"><br><br>
+    	<input type="button" class="button"value="Calculate" onclick="calculations()">
+    	<p class="result"> Result: <br><span id="result">0</span></p>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
